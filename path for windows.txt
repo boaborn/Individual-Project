@@ -1,0 +1,2 @@
+
+facedetect --cascade="C:\opencv\build\etc\haarcascades\haarcascade_frontalface_alt.xml" --nested-cascade="C:\opencv\build\etc\haarcascades\haarcascade_eye.xml" --scale=1.3
