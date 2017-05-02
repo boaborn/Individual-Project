@@ -244,7 +244,6 @@ void detectAndDraw( Mat& img, CascadeClassifier& cascade,CascadeClassifier& nest
            faceLocation[0]=cvPoint(cvRound((r.x+10)*scale), cvRound(r.y*scale));
            faceLocation[1]=cvPoint(cvRound((r.x + r.width-10)*scale), cvRound((r.y + r.height-1)*scale));
            CurrentR=center;
-
            R=radius;
            int k;
            k = waitKey(10);
